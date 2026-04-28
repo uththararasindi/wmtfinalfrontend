@@ -22,7 +22,6 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
     onSubmit({
       ...formData,
       price: Number(formData.price),
-      modelNumber: Number(formData.modelNumber),
     });
   };
 
